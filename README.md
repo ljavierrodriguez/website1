@@ -54,6 +54,13 @@ $ git branch <name>
 
 9. Activar una rama (branch)
 
-``shell
+```shell
 $ git checkout <branch>
 ```
+
+10. Traer cambios entre ramas (branch). Trae los cambios desde la rama especificada hacia la rama activa
+
+```shell
+$ git merge <branch>
+```
+
