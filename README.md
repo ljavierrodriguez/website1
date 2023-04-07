@@ -27,3 +27,33 @@ $ git commit -m "mensaje"
 ```shell
 $ git checkout <filename>
 ```
+
+5. Ver el estado o status de nuestro repositorio
+
+```shell
+$ git status
+````
+
+6. Resetar el respositorio a un commit especifico
+
+```shell
+$ git reset --hard HEAD~5
+```
+
+7. Listar todas las ramas(branch)
+
+```shell
+$ git branch
+```
+
+8. Crear una nueva rama (branch)
+
+```shell
+$ git branch <name>
+````
+
+9. Activar una rama (branch)
+
+``shell
+$ git checkout <branch>
+```
